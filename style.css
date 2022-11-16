@@ -1,0 +1,51 @@
+*{
+    background-color: cadetblue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inputContainer{
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+   
+}
+.inputContainer input{
+    width: 50%;
+    padding: 5px 10px;
+    font-size: 18px
+}
+
+.inputContainer button{
+ width: 50px;
+ cursor: pointer;
+}
+
+#addBtn{
+    font-size: 20px;
+    width: 10%;
+    background-color: chocolate;
+}
+#todoList{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 50px;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 15%;
+}
+.todoContainer{
+   margin-left: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+    padding: 20px;
+    width:70% ;
+}
+
+.done{
+    color: red;
+    background-color: aqua;
+}
